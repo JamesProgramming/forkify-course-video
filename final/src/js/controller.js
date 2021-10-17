@@ -116,6 +116,9 @@ const controlAddRecipe = async function (newRecipe) {
   } catch (err) {
     console.error('💥', err);
     addRecipeView.renderError(err.message);
+    console.log(
+      '1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111'
+    );
   }
 };
 
